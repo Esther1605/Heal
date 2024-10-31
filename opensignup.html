@@ -1,0 +1,135 @@
+<html>
+  <head>
+    <title>Create a OpenUp Account</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        height: 100vh;
+      }
+      .container {
+        display: flex;
+        width: 100%;
+      }
+      .left {
+        background-color: #2e7d6d;
+        color: white;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .left p {
+        font-size: 16px;
+        text-align: center;
+      }
+      .right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      .form-container {
+        width: 100%;
+        max-width: 400px;
+      }
+      .form-container img {
+        display: block;
+        margin: 0 auto 20px;
+      }
+      .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .form-container input[type="text"],
+      .form-container input[type="email"],
+      .form-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .form-container input[type="checkbox"] {
+        margin-right: 10px;
+      }
+      .form-container label {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .form-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #2e7d6d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .form-container .social-login {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .form-container .social-login img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+      }
+      .form-container .social-login p {
+        text-align: center;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <p>
+          "Your mental health is a priority. Your happiness is essential. Your
+          self-care is a necessity. Remember to take care of yourself, because
+          you deserve to thrive."
+        </p>
+      </div>
+      <div class="right">
+        <div class="form-container">
+          <img
+            alt="OpenUp logo"
+            height="100"
+            src="image/openlogo-removebg-preview.png"
+            width="200"
+          />
+          <h2>CREATE A OPENUP ACCOUNT</h2>
+          <input placeholder="First Name" type="text" />
+          <input placeholder="Last Name" type="text" />
+          <input placeholder="Email Address" type="email" />
+          <input placeholder="Password" type="password" />
+          <input placeholder="Confirm password" type="password" />
+          <label>
+            <input type="checkbox" />
+            I have read OpenUp Terms and Privacy Policy
+          </label>
+          <button>Sign up</button>
+
+          <p>
+            Already have Account?
+            <a href="login.html" style="text-decoration: none; color: red"
+              >Log In Here</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
